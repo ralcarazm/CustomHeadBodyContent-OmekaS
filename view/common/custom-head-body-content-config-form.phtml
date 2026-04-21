@@ -1,0 +1,14 @@
+<?php
+/**
+ * @var \Laminas\Form\Form $form
+ */
+$form->prepare();
+?>
+<p>
+    <?php echo $this->translate('Use this form to inject raw markup into the public interface. The first field is inserted immediately before the closing &lt;/head&gt; tag, and the second field is inserted immediately before the closing &lt;/body&gt; tag. Nothing is added to the admin interface or API responses.'); ?>
+</p>
+<p>
+    <strong><?php echo $this->translate('Warning:'); ?></strong>
+    <?php echo $this->translate('The content is rendered without escaping. Only trusted administrators should configure this module.'); ?>
+</p>
+<?php echo $this->formCollection($form, false); ?>
