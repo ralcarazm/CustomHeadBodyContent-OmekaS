@@ -1,0 +1,45 @@
+# Catalan translations for Custom Head and Body Content for Omeka S.
+# Copyright (C) 2026
+# This file is distributed under the same license as the Custom Head and Body Content package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Head and Body Content 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-21 00:00+0000\n"
+"PO-Revision-Date: 2026-04-21 00:00+0000\n"
+"Last-Translator: Rubén Alcaraz Martínez <example@example.com>\n"
+"Language-Team: Catalan\n"
+"Language: ca_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/Form/ConfigForm.php:24
+msgid "Custom <head> content"
+msgstr "Contingut personalitzat del <head>"
+
+#: src/Form/ConfigForm.php:25
+msgid "Raw HTML, CSS, JavaScript, meta tags, verification snippets, or similar markup to inject before the closing </head> tag on public HTML pages."
+msgstr "HTML, CSS, JavaScript, metaetiquetes, fragments de verificació o marcatge similar per injectar abans de l'etiqueta de tancament </head> a les pàgines HTML públiques."
+
+#: src/Form/ConfigForm.php:38
+msgid "Custom body content"
+msgstr "Contingut personalitzat del cos"
+
+#: src/Form/ConfigForm.php:39
+msgid "Raw HTML, CSS, JavaScript, tracking code, or similar markup to inject immediately before the closing </body> tag on public HTML pages."
+msgstr "HTML, CSS, JavaScript, codi de seguiment o marcatge similar per injectar immediatament abans de l'etiqueta de tancament </body> a les pàgines HTML públiques."
+
+#: view/common/custom-head-body-content-config-form.phtml:8
+msgid "Use this form to inject raw markup into the public interface. The first field is inserted immediately before the closing &lt;/head&gt; tag, and the second field is inserted immediately before the closing &lt;/body&gt; tag. Nothing is added to the admin interface or API responses."
+msgstr "Utilitzeu aquest formulari per injectar marcatge en brut a la interfície pública. El primer camp s'insereix immediatament abans de l'etiqueta de tancament &lt;/head&gt;, i el segon camp s'insereix immediatament abans de l'etiqueta de tancament &lt;/body&gt;. No s'afegeix res a la interfície d'administració ni a les respostes de l'API."
+
+#: view/common/custom-head-body-content-config-form.phtml:11
+msgid "Warning:"
+msgstr "Avís:"
+
+#: view/common/custom-head-body-content-config-form.phtml:12
+msgid "The content is rendered without escaping. Only trusted administrators should configure this module."
+msgstr "El contingut es mostra sense escapament. Només els administradors de confiança haurien de configurar aquest mòdul."
