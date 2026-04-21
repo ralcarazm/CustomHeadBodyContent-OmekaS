@@ -1,0 +1,44 @@
+# Custom Head and Body Content for Omeka S
+# Copyright (C) 2026
+# This file is distributed under the same license as the Custom Head and Body Content package.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Head and Body Content 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-21 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/Form/ConfigForm.php:24
+msgid "Custom <head> content"
+msgstr ""
+
+#: src/Form/ConfigForm.php:25
+msgid "Raw HTML, CSS, JavaScript, meta tags, verification snippets, or similar markup to inject before the closing </head> tag on public HTML pages."
+msgstr ""
+
+#: src/Form/ConfigForm.php:38
+msgid "Custom body content"
+msgstr ""
+
+#: src/Form/ConfigForm.php:39
+msgid "Raw HTML, CSS, JavaScript, tracking code, or similar markup to inject immediately before the closing </body> tag on public HTML pages."
+msgstr ""
+
+#: view/common/custom-head-body-content-config-form.phtml:8
+msgid "Use this form to inject raw markup into the public interface. The first field is inserted immediately before the closing &lt;/head&gt; tag, and the second field is inserted immediately before the closing &lt;/body&gt; tag. Nothing is added to the admin interface or API responses."
+msgstr ""
+
+#: view/common/custom-head-body-content-config-form.phtml:11
+msgid "Warning:"
+msgstr ""
+
+#: view/common/custom-head-body-content-config-form.phtml:12
+msgid "The content is rendered without escaping. Only trusted administrators should configure this module."
+msgstr ""
