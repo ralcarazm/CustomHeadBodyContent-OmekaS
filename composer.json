@@ -1,0 +1,11 @@
+{
+  "name": "customheadbodycontent/custom-head-body-content",
+  "description": "Omeka S module to inject custom markup into the public head and body.",
+  "type": "omeka-module",
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "CustomHeadBodyContent\\": "src/"
+    }
+  }
+}
