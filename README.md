@@ -1,6 +1,6 @@
 # Custom Head and Body Content for Omeka S
 
-CustomHeadBodyContent is a plugin for Omeka s that let you to add HTML, CSS or JS code to the head and body sections of the website
+CustomHeadBodyContent is a module for Omeka s that let you to add HTML, CSS or JS code to the head and body sections of the website
 
 ## What it does
 
