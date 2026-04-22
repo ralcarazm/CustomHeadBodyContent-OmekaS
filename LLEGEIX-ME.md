@@ -1,6 +1,6 @@
 # Custom Head and Body Content per a l'Omeka S
 
-CustomHeadBodyContent és un connector per a l'Omeka S que permet afegir codi HTML, CSS o JS a les seccions `head` i `body` del lloc web.
+CustomHeadBodyContent és un mòdul per a l'Omeka S que permet afegir codi HTML, CSS o JS a les seccions `head` i `body` del lloc web.
 
 ## Què fa
 
